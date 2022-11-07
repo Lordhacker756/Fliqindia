@@ -1,6 +1,6 @@
 import About from "./components/about/About";
 import Associate from "./components/associate/Associate";
-import Discover from "./components/discover/Discover";
+// import Discover from "./components/discover/Discover";
 import Features from "./components/features/Features";
 import Divider from "./components/helpers/Divider";
 import Hero from "./components/hero/Hero";
@@ -15,7 +15,7 @@ function App() {
       <Divider width={"80vw"} />
       <Associate />
       <Features />
-      <Discover />
+      {/* <Discover /> */}
     </>
   );
 }
