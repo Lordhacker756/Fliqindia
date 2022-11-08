@@ -8,6 +8,7 @@ import Divider from "./components/helpers/Divider";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Offers from "./components/offers/Offers";
+import Photography from "./components/photography/Photography";
 import Popular from "./components/popular/Popular";
 import Success from "./components/success/Success";
 import Testimonial from "./components/testimonial/Testimonial";
@@ -33,6 +34,7 @@ function App() {
       <Divider width={"80vw"} />
       <Awards />
       <Success />
+      <Photography />
     </>
   );
 }
