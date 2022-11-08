@@ -9,6 +9,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Offers from "./components/offers/Offers";
 import Popular from "./components/popular/Popular";
+import Success from "./components/success/Success";
 import Testimonial from "./components/testimonial/Testimonial";
 import Wedding from "./components/wedding/Wedding";
 
@@ -31,6 +32,7 @@ function App() {
       <Testimonial />
       <Divider width={"80vw"} />
       <Awards />
+      <Success />
     </>
   );
 }
