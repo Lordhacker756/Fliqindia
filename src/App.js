@@ -7,6 +7,7 @@ import Divider from "./components/helpers/Divider";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Popular from "./components/popular/Popular";
+import Wedding from "./components/wedding/Wedding";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/* <Discover /> */}
       <Popular />
       <Blogs />
+      <Wedding />
     </>
   );
 }
