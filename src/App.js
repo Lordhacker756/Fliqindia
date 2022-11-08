@@ -2,6 +2,8 @@ import About from "./components/about/About";
 import Associate from "./components/associate/Associate";
 import Awards from "./components/awards/Awards";
 import Blogs from "./components/blogs/Blogs";
+import CTA from "./components/cta/CTA";
+import Discover from "./components/discover/Discover";
 // import Discover from "./components/discover/Discover";
 import Features from "./components/features/Features";
 import Divider from "./components/helpers/Divider";
@@ -23,7 +25,7 @@ function App() {
       <Divider width={"80vw"} />
       <Associate />
       <Features />
-      {/* <Discover /> */}
+      <Discover />
       <Popular />
       <Blogs />
       <Wedding />
@@ -35,6 +37,7 @@ function App() {
       <Awards />
       <Success />
       <Photography />
+      <CTA />
     </>
   );
 }
