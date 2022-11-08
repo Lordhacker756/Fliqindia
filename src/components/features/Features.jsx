@@ -25,7 +25,7 @@ const packages = [
 
 const Features = () => {
   return (
-    <div className="px-8">
+    <div className="px-6">
       <div className="text_content">
         <h1 className="text-[#4C696D] text-2xl font-bold">
           Our Featured Services
@@ -46,11 +46,11 @@ const Features = () => {
             );
           })}
         </div>
-        <button className="bg-[#DDF8F3] flex items-center justify-center absolute top-[50%] left-0 w-9 h-9 rounded-full">
-          <img src={prev} alt="" />
+        <button className="bg-[#DDF8F3] flex items-center justify-center absolute top-[50%] left-0 w-7 h-7 rounded-full">
+          <img className="w-[35%]" src={prev} alt="" />
         </button>
-        <button className="bg-[#DDF8F3] flex items-center justify-center absolute top-[50%] right-0 w-9 h-9 rounded-full">
-          <img src={next} alt="" />
+        <button className="bg-[#DDF8F3] flex items-center justify-center absolute top-[50%] right-0 w-7 h-7 rounded-full">
+          <img className="w-[35%]" src={next} alt="" />
         </button>
       </div>
     </div>

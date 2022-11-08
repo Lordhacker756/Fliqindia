@@ -28,7 +28,7 @@ const Discover = () => {
           >
             <input
               type="search"
-              className="outline-none w-full rounded-full  placeholder:text-xs flex justify-center placeholder:text-center placeholder:text-[rgba(0, 0, 0, 0.5)] text-[rgba(0, 0, 0, 0.5)]"
+              className="outline-none px-4 w-full rounded-full  placeholder:text-xs flex justify-center placeholder:pl-3 placeholder:text-[rgba(0, 0, 0, 0.5)] text-[rgba(0, 0, 0, 0.5)]"
               id="query"
               name="q"
               placeholder=" what kind of design are you looking for?"
