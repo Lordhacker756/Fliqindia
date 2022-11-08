@@ -34,27 +34,27 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <div className="main_container flex p-8 gap-10">
+    <div className="main_container flex p-8 gap-10 items-center">
       <div className="image w-[40vw]">
-        <img src={bg} alt="" />
+        <img className="scale-110" src={bg} alt="" />
       </div>
       <div className="right_column w-[60vw] p-5">
         <div className="top_content flex items-center justify-between">
-          <div className="left_heading">
+          <div className="left_heading pb-5">
             <h1 className="text-[#4C696D] text-3xl font-bold">Testimonials</h1>
             <h2 className="font-normal text-black">Words for our clients</h2>
           </div>
-          <div className="buttons">
-            <button className="rounded-lg border bg-[#4E99A4] text-white font-semibold text-sm w-[6rem] mx-2 border-black">
+          <div className="buttons font-[Inter]">
+            <button className="rounded-lg border bg-[#4E99A4] text-white font-semibold text-sm w-[6.5rem] mx-2 border-black">
               Google
             </button>
-            <button className="rounded-lg border font-semibold text-sm w-[6rem] border-black">
+            <button className="rounded-lg border font-semibold text-sm w-[6.5rem] border-black">
               Facebook
             </button>
-            <button className="rounded-lg border font-semibold text-sm w-[6rem] mx-2 border-black">
+            <button className="rounded-lg border font-semibold text-sm w-[6.5rem] mx-2 border-black">
               Weddingwire
             </button>
-            <button className="rounded-lg border font-semibold text-sm w-[6rem] mx-2 border-black">
+            <button className="rounded-lg border font-semibold text-sm w-[6.5rem] mx-2 border-black">
               WedmeGood
             </button>
           </div>

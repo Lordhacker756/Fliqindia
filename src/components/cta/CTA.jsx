@@ -5,13 +5,16 @@ const CTA = () => {
   return (
     <div
       className="main_div bg-cover bg-no-repeat flex justify-between min-h-[45vh] mt-8 py-12"
-      style={{ backgroundImage: `url(${cta})` }}
+      style={{
+        backgroundImage: `url(${cta})`,
+        fontFamily: "Istok Web",
+      }}
     >
       <div className="left flex flex-col w-[25%] ml-8 items-center ">
         <h1 className="title font-bold text-2xl text-white ">
           Grow your freelancing career with Fliqa Associate
         </h1>
-        <h2 className="subtitle text-white ">
+        <h2 className="subtitle text-white -ml-10">
           Register yourself <br /> Verification & Quality Check <br /> Verified
           Associate at FliqaIndia
         </h2>

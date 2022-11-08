@@ -2,7 +2,7 @@ import React from "react";
 
 const SuccessCard = ({ image, message }) => {
   return (
-    <div className="flex items-center flex-col justify-center">
+    <div className="flex items-center flex-col justify-center font-[Inter]">
       <div className="img_container w-[10rem] h-[10rem] object-contain bg-white rounded-full flex items-center justify-center">
         <img src={image} className="w-[80%] object-contain" alt="" />
       </div>

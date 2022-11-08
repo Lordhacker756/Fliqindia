@@ -6,7 +6,7 @@ import slide_2 from "../../assets/slide_2.png";
 const WeddingCard = ({ image, name, detail, color }) => {
   return (
     <div
-      className="card_container p-2 rounded-xl"
+      className="card_container p-2 rounded-xl font-[K2D]"
       style={{
         backgroundColor: `${color}`,
         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",

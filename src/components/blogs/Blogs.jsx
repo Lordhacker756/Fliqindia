@@ -8,10 +8,13 @@ import Divider from "../helpers/Divider";
 const Blogs = () => {
   return (
     <div
-      className="main_container bg-no-repeat bg-cover"
+      className="main_container bg-no-repeat bg-cover font-[K2D]"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="text_content pt-3 pl-8" style={{ marginBottom: "-2rem" }}>
+      <div
+        className="text_content pt-3 pl-8 pb-4"
+        style={{ marginBottom: "-2rem" }}
+      >
         <h1 className="text-[#4C696D] text-2xl font-bold">Our Blogs</h1>
         <h2 className="font-normal text-black">Check out our Latest Blog</h2>
       </div>
@@ -56,12 +59,12 @@ const Blogs = () => {
           </div>
           <div className="blogs my-2 ">
             <div className="blog flex my-3">
-              <div className="image w-[100px] h-[75px] ">
+              <div className="image max-w-[100px] max-h-[75px] ">
                 <img
                   className=""
                   src={covid}
                   alt=""
-                  style={{ maxWidth: "90px", height: "90%", width: "90px" }}
+                  // style={{ maxWidth: "90px", height: "90%", width: "90px" }}
                 />
               </div>
               <div className="text_content">
@@ -81,13 +84,14 @@ const Blogs = () => {
             <Divider />
             <div className="blog flex my-3">
               <div
-                className="image w-[100px] h-[75px]"
-                style={{ maxWidth: "100px", height: "90%", width: "90px" }}
+                className="image max-w-[100px] max-h-[75px]"
+                // style={{ maxWidth: "100px", height: "90%", width: "90px" }}
               >
                 <img
+                  className="scale-110"
                   src={expections}
                   alt=""
-                  style={{ maxWidth: "100px", height: "100%" }}
+                  // style={{ maxWidth: "100px", height: "100%" }}
                 />
               </div>
               <div className="text_content ">
@@ -102,11 +106,11 @@ const Blogs = () => {
             </div>
             <Divider />
             <div className="blog flex my-3 item-center">
-              <div className="image w-[100px] h-[75px]">
+              <div className="image max-w-[100px] max-h-[75px]">
                 <img
                   src={photograph}
                   alt=""
-                  style={{ maxWidth: "90px", height: "90%" }}
+                  // style={{ maxWidth: "90px", height: "90%" }}
                 />
               </div>
               <div className="text_content">

@@ -18,7 +18,7 @@ const socials = [
 
 const Footer = () => {
   return (
-    <div className="bg-[#131514] text-white relative overflow-hidden">
+    <div className="bg-[#131514] text-white relative overflow-hidden font-[Rubik]">
       <div className="inner_container px-8 pt-10 pb-3">
         <div className="upper flex justify-between item-top">
           <div className="left flex flex-col w-[30%]">

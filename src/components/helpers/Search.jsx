@@ -11,14 +11,14 @@ const Search = ({ text }) => {
     >
       <input
         type="search"
-        className="outline-none w-full mx-4 flex justify-center placeholder:text-center"
+        className="outline-none w-full mx-4 flex justify-center font-[Josefin-Sans] placeholder:font-[Josefin-Sans] placeholder:text-center"
         id="query"
         name="q"
         placeholder={text}
       />
       <button
         type="submit"
-        className=" text-white bg-black py-2 px-[6rem] rounded-full"
+        className=" text-white bg-black py-2 px-[6rem] font-[Jost] rounded-full"
         onClick={(e) => e.preventDefault}
       >
         Search

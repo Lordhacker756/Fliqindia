@@ -7,6 +7,7 @@ const OfferCard = ({ offer, image }) => {
       className="main_container w-[15vw] h-auto bg-transparent flex flex-col justify-center items-center bg-white rounded-xl"
       style={{
         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+        fontFamily: "Josefin Sans",
       }}
     >
       <div

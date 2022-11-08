@@ -3,7 +3,7 @@ import React from "react";
 const AwardCards = ({ image, ratings }) => {
   return (
     <div
-      className="bg-white rounded-xl w-[18vw] h-[10vh] m-1 flex justify-around px-2 items-center"
+      className="bg-white rounded-xl w-[18vw] h-[10vh] m-1 flex justify-around px-2 items-center font-[Inter] font-[300]"
       style={{
         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
       }}

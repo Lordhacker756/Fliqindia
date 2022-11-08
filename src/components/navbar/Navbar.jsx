@@ -10,19 +10,19 @@ const Navbar = () => {
         </div>
         <div className="nav_links flex items-center">
           <ul className="flex gap-8">
-            <li className="text-white text-base">Home</li>
-            <li className="text-white text-base">Services</li>
-            <li className="text-white text-base">Portfolio</li>
-            <li className="text-white text-base">Community</li>
-            <li className="text-white text-base">Blog</li>
+            <li className="text-white text-base font-[Inter]">Home</li>
+            <li className="text-white text-base font-[Inter]">Services</li>
+            <li className="text-white text-base font-[Inter]">Portfolio</li>
+            <li className="text-white text-base font-[Inter]">Community</li>
+            <li className="text-white text-base font-[Inter]">Blog</li>
           </ul>
         </div>
       </div>
       <div className="nav_btns">
-        <button className="bg-gradient-to-b from-[#017B96] to-[#1E4047] text-white rounded-full px-8 py-2 mx-2">
+        <button className="bg-gradient-to-b from-[#017B96] to-[#1E4047] font-[Inter] text-white rounded-full px-8 py-2 mx-2">
           Sign Up
         </button>
-        <button className="bg-gradient-to-b from-[#017B96] to-[#1E4047] text-white rounded-full px-8 py-2 mx-2">
+        <button className="bg-gradient-to-b from-[#017B96] to-[#1E4047] font-[Inter] text-white rounded-full px-8 py-2 mx-2">
           Sign In
         </button>
       </div>

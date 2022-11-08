@@ -13,12 +13,28 @@ const Discover = () => {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="left py-8 px-3 flex justify-center h-[45vh] item-center flex-col w-1/3">
-        <h1 className="text-2xl font-light text-white">DISCOVER</h1>
-        <h2 className="text-2xl font-bold text-white">
+        <h1
+          className="text-2xl font-light font-[Bebas-neue] text-white"
+          style={{ fontFamily: "Bebas Neue" }}
+        >
+          DISCOVER
+        </h1>
+        <h2
+          className="text-3xl font-bold text-white"
+          style={{ fontFamily: "Bebas Neue" }}
+        >
           GRAPHIC DESIGNING IDEAS
         </h2>
-        <h2 className="text-2xl font-bold text-white">AND SERVICES</h2>
-        <h3 className="text-lg font-light text-white">
+        <h2
+          className="text-3xl font-bold text-white"
+          style={{ fontFamily: "Bebas Neue" }}
+        >
+          AND SERVICES
+        </h2>
+        <h3
+          className="text-lg font-light text-white"
+          style={{ fontFamily: "Bebas Neue" }}
+        >
           FROM BRANDING TO MARKETING
         </h3>
         <div className="search my-2">
@@ -28,14 +44,14 @@ const Discover = () => {
           >
             <input
               type="search"
-              className="outline-none px-4 w-full rounded-full  placeholder:text-xs flex justify-center placeholder:pl-3 placeholder:text-[rgba(0, 0, 0, 0.5)] text-[rgba(0, 0, 0, 0.5)]"
+              className="outline-none font-[Josefin-Slab] px-4 w-full rounded-full  placeholder:text-xs flex justify-center placeholder:pl-3 placeholder:text-[rgba(0, 0, 0, 0.5)] text-[rgba(0, 0, 0, 0.5)]"
               id="query"
               name="q"
               placeholder=" what kind of design are you looking for?"
             />
             <button
               type="submit"
-              className=" text-white bg-black py-1 px-[2rem] -ml-8 rounded-full"
+              className=" text-white bg-black font-[Jost] py-1 px-[2rem] -ml-8 rounded-full"
               onClick={(e) => e.preventDefault}
             >
               Search

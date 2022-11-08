@@ -39,7 +39,7 @@ const Success = () => {
           <h1 className="text-[#4C696D] text-3xl font-bold">Our Success</h1>
           <h2 className="font-normal text-black">Journey of our success</h2>
         </div>
-        <div className="img_div flex gap-10 justify-center">
+        <div className="img_div flex gap-10 justify-center items-center">
           {success.map((elem) => {
             return <SuccessCard image={elem.image} message={elem.message} />;
           })}

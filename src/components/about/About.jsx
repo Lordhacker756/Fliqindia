@@ -23,11 +23,11 @@ const About = () => {
   ];
 
   return (
-    <div className="about_container flex flex-col justify-center">
-      <h1 className="text-[4rem] font-bold text-center">
+    <div className="about_container flex flex-col justify-center pt-3">
+      <h1 className="text-[3rem] font-bold text-center font-[Jura]">
         India's Leading Creative Platform
       </h1>
-      <h2 className="text-2xl font-light text-[#4C696D] text-center">
+      <h2 className="text-2xl font-[Josefin-Sans] font-light text-[#4C696D] text-center">
         Experience hassle free bookings. Trusted by 2500+ Customers
       </h2>
       <div className="search_container flex justify-center my-5">
