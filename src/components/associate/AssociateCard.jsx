@@ -11,19 +11,19 @@ const AssociateCard = ({ image, Name, Location, isVerified, Starts }) => {
       <div className="profile_image rounded-t-3xl bg-[#2C2C2C]">
         <img src={image} alt="" />
       </div>
-      <div className="lower_content bg-[#2C2C2C] rounded-b-3xl  flex pl-4 py-1 justify-between">
+      <div className="lower_content bg-[#2C2C2C] rounded-b-2xl  flex pl-4 py-1 justify-between">
         <div className="text_content">
           <div className="name">{Name}</div>
-          <div className="location">Location: {Location}</div>
+          <div className="location text-sm">Location: {Location}</div>
         </div>
         {isVerified ? (
           <div className="verified">
             <img src={verified_badge} className="w-15 h-8" alt="" />
           </div>
         ) : (
-          <div className="starts">
+          <div className="starts text-sm w-15 h-8 flex items-center pr-2">
             {Starts}
-            <img src={star} alt="" />
+            <img className="h-3 w-3" src={star} alt="" />
           </div>
         )}
       </div>

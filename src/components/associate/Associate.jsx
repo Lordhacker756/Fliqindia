@@ -13,42 +13,42 @@ const associates = [
     name: "Name Title",
     location: "",
     isVerified: true,
-    stars: 5,
+    stars: "5.0",
   },
   {
     image: associate_2,
     name: "Name Title",
     location: "",
     isVerified: true,
-    stars: 5,
+    stars: "5.0",
   },
   {
     image: associate_3,
     name: "Name Title",
     location: "",
     isVerified: false,
-    stars: 5,
+    stars: "5.0",
   },
   {
     image: associate_4,
     name: "Name Title",
     location: "",
     isVerified: true,
-    stars: 5,
+    stars: "5.0",
   },
   {
     image: associate_5,
     name: "Name Title",
     location: "",
     isVerified: false,
-    stars: 5,
+    stars: "5.0",
   },
 ];
 
 const Associate = () => {
   return (
     <div
-      className="flex flex-col bg-no-repeat bg-cover p-8 pb-2 mt-20 my-10"
+      className="flex flex-col bg-no-repeat bg-cover p-6 pb-2 mt-20 my-10"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="upper_content flex justify-between mb-4">
@@ -72,6 +72,7 @@ const Associate = () => {
               Name={elem.name}
               image={elem.image}
               isVerified={elem.isVerified}
+              Starts={elem.stars}
             />
           );
         })}
