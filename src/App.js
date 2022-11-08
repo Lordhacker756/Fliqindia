@@ -6,6 +6,7 @@ import Features from "./components/features/Features";
 import Divider from "./components/helpers/Divider";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import Offers from "./components/offers/Offers";
 import Popular from "./components/popular/Popular";
 import Wedding from "./components/wedding/Wedding";
 
@@ -22,6 +23,9 @@ function App() {
       <Popular />
       <Blogs />
       <Wedding />
+      <Divider width={"80vw"} />
+      <Offers />
+      <Divider width={"80vw"} />
     </>
   );
 }
