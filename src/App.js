@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import Associate from "./components/associate/Associate";
+import Awards from "./components/awards/Awards";
 import Blogs from "./components/blogs/Blogs";
 // import Discover from "./components/discover/Discover";
 import Features from "./components/features/Features";
@@ -29,6 +30,7 @@ function App() {
       <Divider width={"80vw"} />
       <Testimonial />
       <Divider width={"80vw"} />
+      <Awards />
     </>
   );
 }
