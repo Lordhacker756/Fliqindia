@@ -6,6 +6,7 @@ import CTA from "./components/cta/CTA";
 import Discover from "./components/discover/Discover";
 // import Discover from "./components/discover/Discover";
 import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
 import Divider from "./components/helpers/Divider";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
@@ -38,6 +39,7 @@ function App() {
       <Success />
       <Photography />
       <CTA />
+      <Footer />
     </>
   );
 }
