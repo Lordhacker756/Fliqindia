@@ -17,7 +17,7 @@ const offer_cards = [
 const Offers = () => {
   return (
     <div
-      className="main_container p-4 bg-cover bg-no-repeat"
+      className="main_container p-4 pb-8 bg-cover bg-no-repeat"
       style={{ background: `url(${bg})` }}
     >
       <div className="text_content mb-3 text-center">
