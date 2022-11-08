@@ -57,6 +57,17 @@ const Wedding = () => {
           })}
         </div>
       </div>
+      <div className="btn_container pt-10 flex justify-center">
+        <button
+          className="bg-[#DDF9FF] text-lg font-semibold px-5 py-2 rounded-lg"
+          style={{
+            boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            border: "1px solid #4C696D",
+          }}
+        >
+          View More Weddings &#129058;
+        </button>
+      </div>
     </div>
   );
 };
