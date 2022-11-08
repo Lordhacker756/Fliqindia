@@ -11,7 +11,7 @@ const Blogs = () => {
       className="main_container bg-no-repeat bg-cover px-8"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="text_content mt-5">
+      <div className="text_content pt-3" style={{ marginBottom: "-2rem" }}>
         <h1 className="text-[#4C696D] text-2xl font-bold">Our Blogs</h1>
         <h2 className="font-normal text-black">Check out our Latest Blog</h2>
       </div>
