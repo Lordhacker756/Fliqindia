@@ -61,7 +61,7 @@ const Features = () => {
         </h2>
       </div>
       <div className="featureCarousel relative flex justify-center my-7">
-        <div className="cards flex gap-12 w-[88vw] min-h-[350px] overflow-x-hidden scroll-smooth">
+        <div className="cards flex gap-10 w-[88vw] min-h-[350px] py-3 overflow-x-hidden scroll-smooth">
           {packages.map((elem) => {
             return (
               <FeatureCard

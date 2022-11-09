@@ -9,7 +9,7 @@ import card from "../../assets/card.png";
 const Discover = () => {
   return (
     <div
-      className="main_container relative px-4 pb-10 flex bg-cover bg-no-repeat"
+      className="main_container relative px-4 pb-10 flex bg-cover overflow-hidden bg-no-repeat"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="left px-3 flex justify-center h-[55vh] item-center flex-col w-1/3">
@@ -59,11 +59,11 @@ const Discover = () => {
           </form>
         </div>
       </div>
-      <div className="right w-[55%] flex gap-10">
-        <img className="w-[12rem] h-[18rem]" src={walk} alt="" />
-        <img className="w-[12rem] h-[16rem]" src={book} alt="" />
+      <div className="right w-[55%] flex gap-10 ">
+        <img className="w-[12rem] h-[19rem]" src={walk} alt="" />
+        <img className="w-[11rem] h-[15rem]" src={book} alt="" />
         <img className="w-[12rem] h-[19rem]" src={card} alt="" />
-        <img className="w-[12rem] h-[18rem]" src={books} alt="" />
+        <img className="w-[11rem] h-[18rem]" src={books} alt="" />
       </div>
     </div>
   );

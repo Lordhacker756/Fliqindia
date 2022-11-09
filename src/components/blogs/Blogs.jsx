@@ -4,6 +4,9 @@ import expections from "../../assets/Expectations.png";
 import photograph from "../../assets/Photograph.png";
 import covid from "../../assets/covid.png";
 import Divider from "../helpers/Divider";
+import one from "../../assets/1.png";
+import two from "../../assets/2.png";
+import three from "../../assets/3.png";
 
 const Blogs = () => {
   return (
@@ -62,7 +65,7 @@ const Blogs = () => {
               <div className="image max-w-[100px] max-h-[75px] ">
                 <img
                   className=""
-                  src={covid}
+                  src={one}
                   alt=""
                   // style={{ maxWidth: "90px", height: "90%", width: "90px" }}
                 />
@@ -89,12 +92,12 @@ const Blogs = () => {
               >
                 <img
                   className="scale-110"
-                  src={expections}
+                  src={two}
                   alt=""
                   // style={{ maxWidth: "100px", height: "100%" }}
                 />
               </div>
-              <div className="text_content ">
+              <div className="text_content ml-1">
                 <h1 className="title text-[10px] font-bold">
                   Photography: Expectations vs. Reality
                 </h1>
@@ -108,7 +111,7 @@ const Blogs = () => {
             <div className="blog flex my-3 item-center">
               <div className="image max-w-[100px] max-h-[75px]">
                 <img
-                  src={photograph}
+                  src={three}
                   alt=""
                   // style={{ maxWidth: "90px", height: "90%" }}
                 />
