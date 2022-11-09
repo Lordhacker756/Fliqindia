@@ -4,10 +4,14 @@ import Divider from "../helpers/Divider";
 const FeatureCard = ({ image, planName, price }) => {
   return (
     <div
-      className="main_container rounded-lg flex flex-col pb-1 "
+      className="main_container rounded-xl flex flex-col min-h-[345px]  min-w-[270px] pb-1 "
       style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
     >
-      <img className="scale-105" src={image} alt="" />
+      <img
+        className="scale-x-[1.05] scale-y-[1.02] rounded-lg"
+        src={image}
+        alt=""
+      />
       <h1 className="font-bold font-[Inter]  text-center">{planName}</h1>
       <Divider width="90%" />
       <h2 className="text-[#4C696D] font-[Inter] text-sm font-bold text-center w-[80%] m-auto mb-2">

@@ -9,30 +9,30 @@ import card from "../../assets/card.png";
 const Discover = () => {
   return (
     <div
-      className="main_container relative min-h-[45vh] px-4 pb-10 flex bg-cover bg-no-repeat"
+      className="main_container relative px-4 pb-10 flex bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="left py-8 px-3 flex justify-center h-[45vh] item-center flex-col w-1/3">
+      <div className="left px-3 flex justify-center h-[55vh] item-center flex-col w-1/3">
         <h1
-          className="text-2xl font-light font-[Bebas-neue] text-white"
+          className="text-5xl mt-10 font-light font-[Bebas-neue] text-white"
           style={{ fontFamily: "Bebas Neue" }}
         >
           DISCOVER
         </h1>
         <h2
-          className="text-3xl font-bold text-white"
+          className="text-6xl font-bold text-white"
           style={{ fontFamily: "Bebas Neue" }}
         >
           GRAPHIC DESIGNING IDEAS
         </h2>
         <h2
-          className="text-3xl font-bold text-white"
+          className="text-5xl font-bold text-white"
           style={{ fontFamily: "Bebas Neue" }}
         >
           AND SERVICES
         </h2>
         <h3
-          className="text-lg font-light text-white"
+          className="text-3xl font-light text-white"
           style={{ fontFamily: "Bebas Neue" }}
         >
           FROM BRANDING TO MARKETING
@@ -59,11 +59,11 @@ const Discover = () => {
           </form>
         </div>
       </div>
-      <div className="right w-[70%] flex gap-10">
-        <img className="w-[9rem] h-[15rem]" src={walk} alt="" />
-        <img className="w-[10rem] h-[13rem]" src={book} alt="" />
-        <img className="w-[10rem] h-[15rem]" src={card} alt="" />
-        <img className="w-[10rem] h-[14rem]" src={books} alt="" />
+      <div className="right w-[55%] flex gap-10">
+        <img className="w-[12rem] h-[18rem]" src={walk} alt="" />
+        <img className="w-[12rem] h-[16rem]" src={book} alt="" />
+        <img className="w-[12rem] h-[19rem]" src={card} alt="" />
+        <img className="w-[12rem] h-[18rem]" src={books} alt="" />
       </div>
     </div>
   );
